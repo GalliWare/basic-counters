@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  background-color: #282c34;
+  color: mediumseagreen;
+  height: 100%;
+}
+
+.App {
+  height: 100%;
+  width: 100%;
+}
