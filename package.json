@@ -7,7 +7,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "npx webpack",
-    "start": "npx webpack serve --open"
+    "start": "npx webpack serve"
   },
   "author": "Craig Gallimore",
   "license": "MIT",
