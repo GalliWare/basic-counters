@@ -1,2 +1,11 @@
-# react-dev-base-app
-This is a base count app with webpack and babel set, so I can use webpacl-dev to run a server to see live code changes.
+# React Counters App
+
+This is a app that allows you to add counters for different headings. Just a basic counter to increase and decrease output. 
+
+## Technologies used
+
+* react
+* babel
+* bootstrap
+* webpack
+

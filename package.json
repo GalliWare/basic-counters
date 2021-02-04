@@ -1,13 +1,12 @@
 {
-  "name": "react-dev-base-app",
-  "version": "1.0.0",
-  "description": "This is a base count app with webpack and babel set, so I can use webpacl-dev to run a server to see live code changes.",
+  "name": "react_counter",
+  "version": "2.0.0",
+  "description": "This is a base counter app build with react,webpack,bootstrap and babel",
   "main": "index.js",
   "private": "true",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "npx webpack",
-    "start": "npx webpack serve"
+    "build": "webpack",
+    "start": "webpack serve"
   },
   "author": "Craig Gallimore",
   "license": "MIT",
@@ -16,14 +15,16 @@
     "react-dom": "^17.0.1"
   },
   "devDependencies": {
-    "@babel/core": "^7.12.9",
-    "@babel/preset-react": "^7.12.7",
+    "@babel/core": "^7.12.13",
+    "@babel/preset-react": "^7.12.13",
+    "@popperjs/core": "^2.6.0",
     "babel-loader": "^8.2.2",
+    "bootstrap": "^4.6.0",
     "css-loader": "^5.0.1",
     "react-hot-loader": "^4.13.0",
     "style-loader": "^2.0.0",
-    "webpack": "^5.10.0",
-    "webpack-cli": "^4.2.0",
-    "webpack-dev-server": "^3.11.0"
+    "webpack": "^5.20.1",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2"
   }
 }
