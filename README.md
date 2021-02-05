@@ -4,8 +4,8 @@ This is a app that allows you to add counters for different headings. Just a bas
 
 ## Technologies used
 
-* react
-* babel
-* bootstrap
-* webpack
+* [react](https://reactjs.org/)
+* [babel](https://babeljs.io/)
+* [bootstrap](https://getbootstrap.com/)
+* [webpack](https://webpack.js.org/)
 
