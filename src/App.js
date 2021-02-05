@@ -1,6 +1,5 @@
 import React, { useState } from "react"
 import Counter from "./Counter"
-// TODO: Style with Bootstrap
 
 function App() {
   const [addButton, setAddButton] = useState(true)
@@ -20,21 +19,18 @@ function App() {
   }
 
   return (
-    addButton ?
-      <div>
-        <div>
-          {counters}
-        </div>
-        <div>
-          <div className="w-25 mx-auto p-3 mb-5 bg-white rounded">
-            <input typeof="text" value={textInput} placeholder="Counter Name Here..." onKeyDown={addCounter} onChange={(event) => { setTextInput(event.target.value) }}></input>
-            <button className="btn btn-outline-primary col-sm" value={textInput} onClick={addCounter}> Add Counter +</button>
-          </div>
-        </div>
-      </div > :
-      <div>
+    <div className="container w-100 h-auto mt-5 mb-5">
+      <div className="row row-cols-auto">
         {counters}
       </div>
+      {addButton ?
+        <div className="row row-cols-auto">
+          <div className="col m-3 p-3 border bg-light">
+            <input className="input-group input-group-text mb-3" typeof="text" value={textInput} placeholder="Counter Name Here..." onKeyDown={addCounter} onChange={(event) => { setTextInput(event.target.value) }}></input>
+            <button className="btn btn-outline-primary col-sm" value={textInput} onClick={addCounter}> Press Enter or Click here to add</button>
+          </div>
+        </div> : null}
+    </div >
   )
 }
 

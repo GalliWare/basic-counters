@@ -1,6 +1,6 @@
 {
   "name": "react_counter",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "description": "This is a base counter app build with react,webpack,bootstrap and babel",
   "main": "index.js",
   "private": "true",
